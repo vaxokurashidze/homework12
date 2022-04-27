@@ -1,13 +1,13 @@
 .container {
-    max-width: 1089px;
-    width: 100%;
+    max-width:$container-width;
+    width: $Percentage-of-width;
     margin: 57px auto;
 
     h5 {
         width: 48px;
         height: 17px;
         color: #5863f8;
-        font-family: solid 'Poppins', sans-serif;
+        font-family: $basic-font;
         font-size: 14px;
         font-weight: bold;
         margin-bottom: 21px;
@@ -16,7 +16,7 @@
         width: 313px;
         height: 106px;
         color: #000000;
-        font-family: solid 'Poppins', sans-serif;
+        font-family: $basic-font;
         font-size: 42px;
         padding-bottom: 57px;
     }
@@ -55,7 +55,7 @@
             background-color: #f8f8f8;
           }
           button[type=send] {
-            width: 100%;
+            width:  $Percentage-of-width;
             height: 61px;
             background-color: #5863f8;
             color: white;
@@ -98,14 +98,14 @@
         width: 47px;
         height: 22px;
         color: #000000;
-        font-family: solid 'Poppins', sans-serif;
+        font-family: $basic-font;
         font-weight: bold;
         font-size: 18px;
         padding-bottom: 7px;
     }
 .div {
         color: #b1b1b1;
-        font-family: solid 'Poppins', sans-serif;
+        font-family: $basic-font;
     }
 
 }
@@ -120,7 +120,7 @@
     justify-content: space-between;
     margin-bottom: 4px;
     max-width: 1247px;
-    width: 100%;
+    width:  $Percentage-of-width;
     margin: 7px auto;
 
     &  >img {
@@ -130,15 +130,15 @@
 }
 
     footer {
-        max-width: 100%;
-        width: 100%;
+        max-width: $Percentage-of-max-width;
+        width:  $Percentage-of-width;
         height: 396px;
         background-color: #121212;
         display: flex;
         justify-content: space-between; 
 
         .foot {
-            width: 100%;
+            width:  $Percentage-of-width;
             height: 191px;
             margin-top: 91px;
             margin-left: 100px;
@@ -146,7 +146,7 @@
             & > h4 {
                 color: #ffffff;
                 font-size: 24px;
-                font-family: solid 'Poppins', sans-serif;
+                font-family: $basic-font;
                 font-weight: bold;
                 width: 126px;
                 height: 29px;
@@ -157,7 +157,7 @@
                 height: 81px;
                 color: #b1b1b1;
                 font-size: 14px;
-                font-family: solid 'Poppins', sans-serif;
+                font-family: $basic-font;
                 margin-bottom: 23px;
             }
             .img {
@@ -171,19 +171,19 @@
                 justify-content: space-between;
                 flex-direction: column;
                 height: 153px;
-                width: 100%;
+                width:  $Percentage-of-width;
                 line-height: 12px;
 
                 & > :first-child  {
                     color: #ffffff;
                     font-size: 18px;
-                    font-family: solid 'Poppins', sans-serif;
+                    font-family: $basic-font;
                 }
                 
                 li {
                     font-size: 14px;
                     color: #5863f8;
-                    font-family: solid 'Poppins', sans-serif;
+                    font-family: $basic-font;
                 
                 }
             }

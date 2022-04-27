@@ -62,7 +62,7 @@ a {
   width: 48px;
   height: 17px;
   color: #5863f8;
-  font-family: solid 'Poppins', sans-serif;
+  font-family: solid "Poppins", sans-serif;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 21px;
@@ -72,7 +72,7 @@ a {
   width: 313px;
   height: 106px;
   color: #000000;
-  font-family: solid 'Poppins', sans-serif;
+  font-family: solid "Poppins", sans-serif;
   font-size: 42px;
   padding-bottom: 57px;
 }
@@ -174,7 +174,7 @@ a {
   width: 47px;
   height: 22px;
   color: #000000;
-  font-family: solid 'Poppins', sans-serif;
+  font-family: solid "Poppins", sans-serif;
   font-weight: bold;
   font-size: 18px;
   padding-bottom: 7px;
@@ -182,7 +182,7 @@ a {
 
 .card .div {
   color: #b1b1b1;
-  font-family: solid 'Poppins', sans-serif;
+  font-family: solid "Poppins", sans-serif;
 }
 
 .h2 {
@@ -231,7 +231,7 @@ footer .foot {
 footer .foot > h4 {
   color: #ffffff;
   font-size: 24px;
-  font-family: solid 'Poppins', sans-serif;
+  font-family: solid "Poppins", sans-serif;
   font-weight: bold;
   width: 126px;
   height: 29px;
@@ -243,7 +243,7 @@ footer .foot > p {
   height: 81px;
   color: #b1b1b1;
   font-size: 14px;
-  font-family: solid 'Poppins', sans-serif;
+  font-family: solid "Poppins", sans-serif;
   margin-bottom: 23px;
 }
 
@@ -272,12 +272,12 @@ footer .foot ul {
 footer .foot ul > :first-child {
   color: #ffffff;
   font-size: 18px;
-  font-family: solid 'Poppins', sans-serif;
+  font-family: solid "Poppins", sans-serif;
 }
 
 footer .foot ul li {
   font-size: 14px;
   color: #5863f8;
-  font-family: solid 'Poppins', sans-serif;
+  font-family: solid "Poppins", sans-serif;
 }
 /*# sourceMappingURL=global.css.map */
