@@ -51,4 +51,233 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.container {
+  max-width: 1089px;
+  width: 100%;
+  margin: 57px auto;
+}
+
+.container h5 {
+  width: 48px;
+  height: 17px;
+  color: #5863f8;
+  font-family: solid 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 21px;
+}
+
+.container h2 {
+  width: 313px;
+  height: 106px;
+  color: #000000;
+  font-family: solid 'Poppins', sans-serif;
+  font-size: 42px;
+  padding-bottom: 57px;
+}
+
+.s-1, .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.s-1 textarea, .card-wrapper textarea {
+  width: 721px;
+  height: 289px;
+  padding: 21px 600px 251px 20px;
+  border: 1px solid #e8e8e8;
+  background-color: #f8f8f8;
+  font-size: 13px;
+  resize: none;
+}
+
+.s-1 .box, .card-wrapper .box {
+  width: 353px;
+  height: 289px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 49px;
+}
+
+.s-1 .box input[type=text], .s-1 .box [type=email], .card-wrapper .box input[type=text], .card-wrapper .box [type=email] {
+  width: 353px;
+  height: 61px;
+  padding: 21px 204px 23px 20px;
+  margin-bottom: 15px;
+  display: inline-block;
+  border: 2px solid #e8e8e8;
+  background-color: #f8f8f8;
+}
+
+.s-1 .box button[type=send], .card-wrapper .box button[type=send] {
+  width: 100%;
+  height: 61px;
+  background-color: #5863f8;
+  color: white;
+  padding: 21px 150px;
+  border: none;
+  cursor: pointer;
+}
+
+.s-1 .box button[type=send]:hover, .card-wrapper .box button[type=send]:hover {
+  background-color: #58f8e3;
+}
+
+.card {
+  width: 202px;
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 7px;
+  margin-bottom: 73px;
+}
+
+.card > img {
+  width: 60px;
+  height: 59px;
+}
+
+.card .btn {
+  width: 60px;
+  height: 59px;
+  background-color: #5863f8;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  padding: 23px 22px 21px 20px;
+}
+
+.card h4 {
+  width: 47px;
+  height: 22px;
+  color: #000000;
+  font-family: solid 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 7px;
+}
+
+.card .div {
+  color: #b1b1b1;
+  font-family: solid 'Poppins', sans-serif;
+}
+
+.h2 {
+  width: 464px !important;
+  height: 106px !important;
+}
+
+.image-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4px;
+  max-width: 1247px;
+  width: 100%;
+  margin: 7px auto;
+}
+
+.image-wrapper > img {
+  width: 353px;
+  height: 353px;
+}
+
+footer {
+  max-width: 100%;
+  width: 100%;
+  height: 396px;
+  background-color: #121212;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .foot {
+  width: 100%;
+  height: 191px;
+  margin-top: 91px;
+  margin-left: 100px;
+}
+
+footer .foot > h4 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: solid 'Poppins', sans-serif;
+  font-weight: bold;
+  width: 126px;
+  height: 29px;
+  margin-bottom: 23px;
+}
+
+footer .foot > p {
+  width: 255px;
+  height: 81px;
+  color: #b1b1b1;
+  font-size: 14px;
+  font-family: solid 'Poppins', sans-serif;
+  margin-bottom: 23px;
+}
+
+footer .foot .img {
+  width: 36px;
+  height: 36px;
+  margin-right: 9px;
+}
+
+footer .foot ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 153px;
+  width: 100%;
+  line-height: 12px;
+}
+
+footer .foot ul > :first-child {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: solid 'Poppins', sans-serif;
+}
+
+footer .foot ul li {
+  font-size: 14px;
+  color: #5863f8;
+  font-family: solid 'Poppins', sans-serif;
+}
 /*# sourceMappingURL=global.css.map */

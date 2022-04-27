@@ -1,0 +1,197 @@
+.container {
+    max-width: 1089px;
+    width: 100%;
+    margin: 57px auto;
+
+    h5 {
+        width: 48px;
+        height: 17px;
+        color: #5863f8;
+        font-family: solid 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 21px;
+    }
+    h2 {
+        width: 313px;
+        height: 106px;
+        color: #000000;
+        font-family: solid 'Poppins', sans-serif;
+        font-size: 42px;
+        padding-bottom: 57px;
+    }
+    
+}
+
+.s-1, .card-wrapper {
+    display: flex;
+    justify-content: space-around;
+
+    textarea {
+        width: 721px;
+        height: 289px;
+        padding: 21px 600px 251px 20px;
+        border: 1px solid #e8e8e8;
+        background-color: #f8f8f8;
+        font-size: 13px;
+        resize: none;
+      }
+
+      .box {
+        width: 353px;
+        height: 289px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 49px;
+
+        input[type=text], [type=email]  {
+            width: 353px;
+            height: 61px;
+            padding: 21px 204px 23px 20px;
+            margin-bottom: 15px;
+            display: inline-block;
+            border: 2px solid #e8e8e8;
+            background-color: #f8f8f8;
+          }
+          button[type=send] {
+            width: 100%;
+            height: 61px;
+            background-color: #5863f8;
+            color: white;
+            padding: 21px 150px;
+            border: none;
+            cursor: pointer;
+          }
+          button[type=send]:hover {
+            background-color: #58f8e3;
+          }
+    }
+}
+.card {
+    width: 202px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    line-height: 7px;
+    margin-bottom: 73px;
+
+    & > img {
+        width: 60px;
+        height: 59px;
+    }
+
+    .btn {
+        width: 60px;
+        height: 59px;
+        background-color: #5863f8;
+        color: #ffffff;
+        cursor: pointer;
+        border: none;
+        border-radius: 30px;
+        padding: 23px 22px 21px 20px;
+    }
+
+ h4 {
+        width: 47px;
+        height: 22px;
+        color: #000000;
+        font-family: solid 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom: 7px;
+    }
+.div {
+        color: #b1b1b1;
+        font-family: solid 'Poppins', sans-serif;
+    }
+
+}
+
+.h2 {
+    width: 464px !important;
+    height: 106px !important;
+} 
+
+.image-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    max-width: 1247px;
+    width: 100%;
+    margin: 7px auto;
+
+    &  >img {
+        width: 353px;
+        height: 353px;
+    }
+}
+
+    footer {
+        max-width: 100%;
+        width: 100%;
+        height: 396px;
+        background-color: #121212;
+        display: flex;
+        justify-content: space-between; 
+
+        .foot {
+            width: 100%;
+            height: 191px;
+            margin-top: 91px;
+            margin-left: 100px;
+
+            & > h4 {
+                color: #ffffff;
+                font-size: 24px;
+                font-family: solid 'Poppins', sans-serif;
+                font-weight: bold;
+                width: 126px;
+                height: 29px;
+                margin-bottom: 23px;
+            }
+            & > p {
+                width: 255px;
+                height: 81px;
+                color: #b1b1b1;
+                font-size: 14px;
+                font-family: solid 'Poppins', sans-serif;
+                margin-bottom: 23px;
+            }
+            .img {
+                width: 36px;
+                height: 36px;
+                margin-right: 9px;
+            }
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                height: 153px;
+                width: 100%;
+                line-height: 12px;
+
+                & > :first-child  {
+                    color: #ffffff;
+                    font-size: 18px;
+                    font-family: solid 'Poppins', sans-serif;
+                }
+                
+                li {
+                    font-size: 14px;
+                    color: #5863f8;
+                    font-family: solid 'Poppins', sans-serif;
+                
+                }
+            }
+        
+        }
+    }
+
+
+
+
+
