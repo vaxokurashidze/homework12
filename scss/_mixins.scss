@@ -1,0 +1,7 @@
+@mixin flex-props($justify:space-between,$direction:column,$align:center){ 
+    display: flex;
+    justify-content: $justify;
+    flex-direction: $direction;
+    align-items: $align;
+}
+    
